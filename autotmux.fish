@@ -1,7 +1,7 @@
 #!/usr/bin/fish
 
 if test (count $argv) -gt 1
-	echo "Usage: ./setup.fish <config_file> or ./setup.fish"
+	echo "Usage: ./autotmux.fish <config_file> or ./autotmux.fish"
 	echo "If no config file is provided, setup.json will be used."
 	exit 1
 end
