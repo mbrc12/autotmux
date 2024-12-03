@@ -1,0 +1,20 @@
+{
+	"term": "kitty %",
+	"name": "gamedev",
+	"windows": [
+		{
+			"name": "editor",
+			"panes": [
+				"nvim"
+			]
+		},
+		{
+			"name": "run",
+			"panes": [
+				"dotnet run --no-build",
+				"find **/*.cs Assets/**/* | entr -r dotnet build"
+			],
+			"focus": 1
+		}
+	]
+}
